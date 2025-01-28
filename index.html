@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acacia Nectar Honey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Acacia Nectar</div>
+            <div id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Pure, Natural Honey from Baringo</h1>
+            <p>Experience nature's finest sweetness, straight from the source.</p>
+            <a href="#products" class="button">Shop Now</a>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+<section id="products" class="products">
+    <h2>Our Honey Selection</h2>
+    <p>Discover our range of honey products, each crafted to bring you the finest flavors from Baringo.</p>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="images/honey1.jpeg" alt="Classic Honey">
+            <h3>Classic Honey</h3>
+            <p>Rich and natural, perfect for all uses.</p>
+            <span class="price">$15</span>
+            <button class="button">Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="images/honey2.jpeg" alt="Infused Honey">
+            <h3>Infused Honey</h3>
+            <p>Unique flavors to elevate your dishes.</p>
+            <span class="price">$18</span>
+            <button class="button">Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="images/honey3.jpeg" alt="Raw Honey">
+            <h3>Raw Honey</h3>
+            <p>Unfiltered and straight from the hive.</p>
+            <span class="price">$20</span>
+            <button class="button">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+   <!-- Why Choose Us Section -->
+<section id="benefits" class="why-choose-us">
+    <h2>Why Choose Acacia Nectar Honey?</h2>
+    <p>We bring you pure, natural honey straight from the heart of Baringo, crafted with care and quality.</p>
+    <div class="benefits-grid">
+        <div class="benefit-item">
+            <img src="images/premium.jpeg" alt="High Quality Icon">
+            <h3>Premium Quality</h3>
+            <p>Our honey is carefully harvested and minimally processed to retain its natural goodness.</p>
+        </div>
+        <div class="benefit-item">
+            <img src="images/natural.jpeg" alt="100% Natural Icon">
+            <h3>100% Natural</h3>
+            <p>No additives or artificial ingredients, just pure honey from nature.</p>
+        </div>
+        <div class="benefit-item">
+            <img src="images/benefit.jpeg" alt="Health Benefits Icon">
+            <h3>Health Benefits</h3>
+            <p>Packed with antioxidants, vitamins, and minerals to support your well-being.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Our Story Section -->
+<section id="our-story" class="our-story">
+    <h2>Our Story</h2>
+    <p>From humble beginnings to a trusted source of premium honey, our journey is rooted in tradition, sustainability, and a passion for quality.</p>
+    <div class="timeline">
+        <div class="timeline-event">
+            <span class="timeline-date">2015</span>
+            <div class="timeline-content">
+                <h3>Founded in Baringo</h3>
+                <p>Our story began in the heart of Baringo, where we recognized the potential of local beekeepers to produce exceptional, pure honey.</p>
+            </div>
+        </div>
+        <div class="timeline-event">
+            <span class="timeline-date">2018</span>
+            <div class="timeline-content">
+                <h3>Commitment to Sustainability</h3>
+                <p>We established partnerships with local farmers, focusing on sustainable practices that support the environment and community.</p>
+            </div>
+        </div>
+        <div class="timeline-event">
+            <span class="timeline-date">2020</span>
+            <div class="timeline-content">
+                <h3>Expansion and Growth</h3>
+                <p>With growing demand, we expanded our operations, ensuring that each jar of honey met our high standards of quality and purity.</p>
+            </div>
+        </div>
+        <div class="timeline-event">
+            <span class="timeline-date">Today</span>
+            <div class="timeline-content">
+                <h3>A Trusted Honey Brand</h3>
+                <p>Acacia Nectar is now a beloved brand, providing customers with natural honey that embodies the richness of our land.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Get in Touch Section -->
+<section id="contact" class="get-in-touch">
+    <h2>Get in Touch</h2>
+    <p>We’d love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.</p>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:info@acacianectar.com">info@acacianectar.com</a></p>
+            <p>Phone: <a href="tel:+254123456789">+254 123 456 789</a></p>
+            <p>Location: Baringo, Kenya</p>
+            <div class="social-media">
+                <a href="#"><img src="images/fb.jpeg" alt="Facebook"></a>
+                <a href="#"><img src="images/ig.jpeg" alt="Instagram"></a>
+                <a href="#"><img src="images/x.jpeg" alt="Twitter"></a>
+            </div>
+        </div>
+        <form class="contact-form">
+            <h3>Send Us a Message</h3>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Customer Testimonials Section -->
+<section id="testimonials" class="testimonials-section">
+    <h2>What Our Customers Are Saying</h2>
+    <div class="testimonial-slider">
+        <!-- Testimonial 1 -->
+        <div class="testimonial active">
+            <img src="images/customer1.jpeg" alt="Customer Jane Doe">
+            <p>“Acacia Nectar honey is the best I've ever tasted! The natural sweetness and purity are unmatched.”</p>
+            <h4>– Jane Doe</h4>
+        </div>
+        
+        <!-- Testimonial 2 -->
+        <div class="testimonial">
+            <img src="images/customer2.jpeg" alt="Customer John Smith">
+            <p>“I love using Acacia Nectar honey in my tea and baking. It has a rich flavor that enhances everything!”</p>
+            <h4>– John Smith</h4>
+        </div>
+        
+        <!-- Testimonial 3 -->
+        <div class="testimonial">
+            <img src="images/customer3.jpeg" alt="Customer Alice Brown">
+            <p>“Knowing that this honey is sustainably sourced makes it taste even better!”</p>
+            <h4>– Alice Brown</h4>
+        </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="prev" onclick="changeTestimonial(-1)">&#10094;</button>
+    <button class="next" onclick="changeTestimonial(1)">&#10095;</button>
+</section>
+
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <h2>Acacia Nectar</h2>
+            <p>Pure, sustainable honey from the heart of Baringo. Taste the difference, embrace the purity.</p>
+        </div>
+        
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Our Honey</a></li>
+                <li><a href="#our-story">Our Story</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:info@acacianectar.com">info@acacianectar.com</a></p>
+            <p>Phone: <a href="tel:+254 743 854 585">+254 743 854 585</a></p>
+            <div class="footer-social">
+                <a href="#"><img src="images/fb.jpeg" alt="Facebook"></a>
+                <a href="#"><img src="images/ig.jpeg" alt="Instagram"></a>
+                <a href="https://x.com/Gilbert_Belion"target="_blank" rel="noopener noreferrer"><img src="images/x.jpeg" alt="Twitter"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2024 Acacia Nectar. All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
