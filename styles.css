@@ -97,7 +97,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Adjust darkness */
+    background: rgba(0, 0, 0, 0.7); /* Adjust darkness */
     z-index: -1;
 }
 
@@ -616,6 +616,7 @@ header {
 .footer-contact .footer-social img {
     width: 20px;
     transition: transform 0.3s;
+    border-radius: 5px;
 }
 
 .footer-contact .footer-social img:hover {
