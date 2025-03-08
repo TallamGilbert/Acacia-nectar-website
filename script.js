@@ -12,21 +12,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// JavaScript to toggle product visibility
-function toggleProducts() {
-    const hiddenProducts = document.querySelectorAll('.product-card.hidden');
-    const showMoreBtn = document.getElementById('showMoreBtn');
-
-    hiddenProducts.forEach((product) => {
-        // Toggle visibility by adding/removing 'hidden' class
-        product.classList.toggle('hidden');
-    });
-
-    // Update button text based on the current state
-    showMoreBtn.textContent = showMoreBtn.textContent === 'Show More' ? 'Show Less' : 'Show More';
-}
-
-
 // JavaScript for testimonial slider
 let currentTestimonial = 0;
 showTestimonial(currentTestimonial);
@@ -55,3 +40,4 @@ function showTestimonial(n) {
 setInterval(() => {
     changeTestimonial(1);
 }, 5000);
+
